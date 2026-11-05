@@ -1,0 +1,19 @@
+# Local configuration and generated output
+.gradle/
+.kotlin/
+.idea/
+**/build/
+local.properties
+*.iml
+.DS_Store
+# Private signing material
+*.jks
+*.keystore
+keystore.properties
+# Large local dependencies, models, recordings and release binaries
+*.aar
+*.apk
+*.aab
+app/src/main/assets/models/
+*.mp3
+*.wav
